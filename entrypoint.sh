@@ -18,4 +18,4 @@ if [[ ! -z "${CUSTOM_WORKING_DIRECTORY}" ]]; then
 fi
 
 echo "Starting Releasr $1"
-packagr-releasr start --scm github --package_type golang
+packagr-releasr start --scm github --package_type generic
